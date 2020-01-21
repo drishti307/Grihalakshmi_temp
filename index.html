@@ -36,24 +36,15 @@
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#aboutus">About Us</a>
+        <a class="nav-link" href="#contactus">Contact Us</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Contact Us
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Sign In</a>
-          <a class="dropdown-item" href="#signup">Sign Up</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#contactus">Contact Us</a>
-        </div>
+	  <li class="nav-item">
+        <a class="nav-link" href="sign_in.html">Sign In</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#services">Services</a>
+	  <li class="nav-item">
+        <a class="nav-link" href="#sign_up.html">Sign Up</a>
       </li>
-     
-    </ul>
+     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -128,8 +119,7 @@
              jiorgjh5t765poiretu-3825y8tghjujei9rtuy895468oidfnrk5toypu53
          09789yhgoil539u68375hjtoigjpeut490376uj90tu075u96uj9tu03407ut6o3j9
      ug34u56ojg9e854uj9gt9r78t945-8g4949-u5</p>
-     <a href="about.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Know More</a>
-                     
+                     <button class="btn bg-primary">Know More</button><!-- button ka color primary hai matlab blue -->
 				</div>
 				
 			</div>
@@ -146,33 +136,40 @@
 			<hr class="w-25 mx-auto pt-5">
 	
 
-<div class="row text-center mb-5" >
-	<div class="col-lg-6 col-md-6 col-12">
-					<div class="card" style="width:400px">
-  <img class="card-img-top" src="pic5.jpg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Cooking</h4>
-    <p class="card-text">Some example text.</p>
-    <a href="#" class="btn btn-primary">See Profile,we have to make this</a>
-  </div>
-</div>
-	</div>
+		<div class="row text-center mb-5" >
+		<div class="col-lg-6 col-md-6 col-12 text-right px-5">
+			
+		<h3>
+			<a class="nav-link text-black" href="#">Skill</a>
+		</h3>		
+		
+		</div>
 
-	<div class="row text-center ">
-	<div class="col-lg-6 col-md-6 col-12">
-					<div class="card" style="width:400px">
-  <img class="card-img-top" src="pic4.jpg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Stiching</h4>
-    <p class="card-text">Some example text.</p>
-    <a href="#" class="btn btn-primary">See Profile,we have to make this</a>
-  </div>
-</div>
-	</div>
-</div>
+		<div class="row text-center ">
+		<div class="col-lg-6 col-md-6 col-12 text-left px-5">
+		<h3 >
+			<a class="nav-link text-black" href="#">Area</a>
+		</h3>		
+		</div>
+	
+		</div>
+	
 	</section>
 
 
+<section>
+
+<div class="dropdown text-center mb-3">
+		<button type="button" class="btn btn-light dropdown-toggle px-3" data-toggle="dropdown">
+		Dropdown button
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Link 1</a>
+			<a class="dropdown-item" href="#">Link 2</a>
+			<a class="dropdown-item" href="#">Link 3</a>
+		</div>
+	  </div>
+</section>
 
 	<section class="bg-primary">
 		<article class="py-5 text-center">
@@ -255,21 +252,21 @@
         <!-- Modal body -->
         <div class="modal-body">
          <form action="/action_page.php">
-  <div class="form-group ">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
-  </div>
-  <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
-  </div>
-  <div class="form-group form-check">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox"> Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+			<div class="form-group ">
+			<label for="email">Email address:</label>
+			<input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+			</div>
+			<div class="form-group">
+			<label for="pwd">Password:</label>
+			<input type="password" class="form-control" placeholder="Enter password" id="pwd">
+			</div>
+			<div class="form-group form-check">
+			<label class="form-check-label">
+				<input class="form-check-input" type="checkbox"> Remember me
+			</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		 </form>
         </div>
         
         <!-- Modal footer -->
@@ -293,16 +290,17 @@
 <div class="w-50 mx-auto">
 <form action="/action_page.php">
   <div class="form-group">
+    <label for="mbw">Name</label>
+    <input type="name" class="form-control" placeholder="Enter your name" >
+  </div>
+  <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
   </div>
-  <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
-  </div>
+  
    <div class="form-group">
     <label for="mbw">Mobile No.</label>
-    <input type="number" class="form-control" placeholder="Enter Mobile No." id="mbd">
+    <input type="number" class="form-control" placeholder="Enter Mobile No." >
   </div>
    <div class="form-group">
     <label >Message:</label>
@@ -320,7 +318,7 @@
 
 <footer>
 	<div class="pt-5">
-	<p class="text-center bg-dark text-white">@copyright Grihlakshmi- Sarang 2020</p>
+	<p class="text-center bg-dark text-white">&copy; Grihlakshmi- Sarang 2020</p>
 </div>
 </footer>
 
